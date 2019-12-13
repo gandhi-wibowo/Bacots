@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnPin"
+        android:title="Pin"
+        android:icon="@drawable/ic_star_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mnMute"
+        android:title="Mute"
+        android:icon="@drawable/ic_volume_mute_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mnArchive"
+        android:title="Archive"
+        android:icon="@drawable/ic_archive_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/mnExitGroup"
+        android:title="Exit group"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnAddChatShortcut"
+        android:title="Add chat shortcut"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnGroupInfo"
+        android:title="Group info"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnMarkAsRead"
+        android:title="Mark as read"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnMarkAsUnread"
+        android:title="Mark as unread"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnSelectAll"
+        android:title="Select all"
+        app:showAsAction="never"/>
+</menu>

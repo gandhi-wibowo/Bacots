@@ -27,8 +27,4 @@
         android:id="@+id/mnSetting"
         android:title="Setting"
         app:showAsAction="never"/>
-    <item
-        android:id="@+id/mnStatusPrivacy"
-        android:title="Status Privacy"
-        app:showAsAction="never"/>
 </menu>
